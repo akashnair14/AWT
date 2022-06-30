@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(241, 241, 204);
+    padding: 20px 54px;
+}
+
+.container {
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid hsl(241, 100%, 79%);
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px 5px #0c07ff;
+}
+
+#heading1 {
+    color: rgb(36, 36, 80);
+    text-align: center;
+    text-shadow: 7px 5px 5px rgb(170, 125, 125);
+    /* background-color: greenyellow; */
+}
+
+.font {
+    font-size: 15px;
+}
+
+.heading2 {
+    color: rgb(122, 24, 24);
+}
+
+#quote {
+    font-size: 12px;
+}
+
+#date {
+    text-align: right;
+    font-size: 25px;
+}
+
+.button {
+    margin: 15px 15px;
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(55, 135, 226);
+    font-size: large;
+    color: rgb(255, 230, 230);
+    cursor: pointer;
+}
