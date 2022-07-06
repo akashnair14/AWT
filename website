@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title>Webpage</title>
+    <style></style>
+    <link rel="stylesheet" href="homepage.css" />
+ </head>
+<body style="background-color:white
+; color:black">
+    <div class="logo">
+        <img src="logo.png"/ height="50px" width="25%">
+      </div>
+    <div class="navigation">
+        <a class="hometab" href="homepage.html">Home</a>
+        <a href="about_us.html">About us</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <br>
+<h1  style="color:rgb(141, 50, 49); text-align:center"><u>COLLEGE ADMISSION</u></h1>
+<hr>
+<center>
+<form class="formclr">
+    <table border="1px">
+        <tr>
+            <th>
+                <div>Name:</div>
+            </th>
+            <td>
+                <input type: "text" required placeholder="Enter your full name..." autofocus/>
+            </td>
+<tr>
+    <th>
+        Address: 
+        <th>
+            <textarea row="5" placeholder="Enter address.." align="center"/></textarea>
+        </div>
+    </tr>
+</td>
+<tr>
+    <th>
+        <div>Phone Number: </div>
+    </th>
+    <td>
+        <input type="number" maxlength="10"/>
+    </td>
+</tr>
+    <th>
+    Date of Birth:
+     </th>
+<td>
+    <input type="date"/>
+</td>
+<tr>
+<th>
+    Interested course:
+</th>
+<td>
+<input type="radio" name="course" value="CE">
+<label>CE</label><br>
+<input type="radio" name="course" value="IT">
+<label>IT</label><br>
+<input type="radio" name="course" value="ME">
+<label>Mech.E</label><br>
+<input type="radio" name="course" value="EE">
+<label>Elec.E</label><br>
+<input type="radio" name="course" value="CE">
+<label>Chem. E</label><br>
+</td>
+</tr>
+</table>
+</div>
+
+</center>
+<hr>
+<h2><u>Terms and Conditions:</u></h2>
+<ul>
+    <li> Students should pay all fess on or before deadline.</li>
+    <li> Students should carry thor original id proofs during admission pocess</li>
+</ul>
+<input type="checkbox" required name="Agree Terms and Conditions" value="">
+<label>I hearby agree to all terms and conditions.<sup>*</sup></label><br>
+<h2><u>Necessery Documents:</u></h2>
+<ol>
+    <li>Aadhar card</li>
+    <li>HSC marksheet</li>
+    <li>pasport size photo</li>
+    <li>SSC marksheet</li>
+</ol>
+<input type="file"multiple accept=".jpg,jpeg,.png,.pdf"/><hr/>
+<div align="center">
+    <input type="submit"></input>
+</form>
+</div>
+<hr>
+</body>
+</html>
+
+
+
